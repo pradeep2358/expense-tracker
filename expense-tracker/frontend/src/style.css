@@ -1,0 +1,21 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { margin: 0; background: #f3f5f9; }
+nav { display: flex; gap: 16px; align-items: center; background: #1e293b; color: #fff; padding: 12px 20px; flex-wrap: wrap; }
+nav a { color: #cbd5e1; text-decoration: none; }
+nav button { margin-left: auto; }
+.container { max-width: 800px; margin: 20px auto; padding: 0 12px; }
+.card {
+  background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 1px 4px #0002;
+  margin-bottom: 12px; display: flex; flex-direction: column; gap: 10px;
+  max-width: 450px; margin-left: auto; margin-right: auto;
+}
+.card.row { flex-direction: row; justify-content: space-between; max-width: none; }
+.stats { display: flex; gap: 12px; flex-wrap: wrap; }
+.stats .card { flex: 1; }
+input, select, textarea { padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; }
+button { padding: 10px 14px; background: #2563eb; color: #fff; border: 0; border-radius: 6px; cursor: pointer; }
+button:disabled { opacity: .6; }
+button.danger { background: #dc2626; padding: 4px 8px; }
+table { width: 100%; background: #fff; border-collapse: collapse; }
+th, td { padding: 8px; border-bottom: 1px solid #e2e8f0; text-align: left; font-size: 14px; }
+.error { color: #dc2626; }
